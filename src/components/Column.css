@@ -1,0 +1,9 @@
+.column {
+  width: 80%;
+  height: 200px;
+  color: #fff;
+  background: var(--color-gray-dark);
+  border-radius: 4px;
+  padding: 8px;
+  margin: 20px auto;
+}
