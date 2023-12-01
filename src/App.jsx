@@ -1,10 +1,10 @@
 import { useState } from "react";
 import Column from "./components/Column";
+import "./App.css";
 
 function App() {
   return (
     <div className="app">
-      <h1>Hellobworld!</h1>
       <Column state="PLANNED" />
       <Column state="ONGOING" />
       <Column state="DONE" />

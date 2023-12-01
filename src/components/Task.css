@@ -1,0 +1,31 @@
+.task {
+  background: #cf1733;
+  border-radius: 3px;
+  padding: 2px;
+  font-size: 13px;
+  transition: 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task h1 {
+  font-size: 13px;
+  margin: 8px;
+}
+
+.task h1:nth-child(2) {
+  opacity: 0.5;
+}
+
+.PLANNED {
+  background: #cf1733;
+}
+
+.ONGOING {
+  background: var(--color-ongoing);
+}
+
+.DONE {
+  background: var(--color-done);
+}
