@@ -13,7 +13,7 @@ const Column = ({ state }) => {
     <div className="column">
       <h1>{state}</h1>
       {tasks.map((task) => (
-        <Task title={task.title} />
+        <Task title={task.title} key={task.title} />
       ))}
     </div>
   );
