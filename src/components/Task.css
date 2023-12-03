@@ -7,10 +7,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 10px;
 }
 
 .task h1 {
-  font-size: 13px;
+  font-size: 12px;
   margin: 8px;
 }
 

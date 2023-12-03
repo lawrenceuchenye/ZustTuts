@@ -15,6 +15,7 @@ const Column = ({ state }) => {
       {tasks.map((task) => (
         <Task title={task.title} status={task.status} key={task.title} />
       ))}
+      <p>tap task to delete</p>
     </div>
   );
 };

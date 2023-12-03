@@ -8,4 +8,14 @@
   padding: 8px;
   margin: 20px auto;
   font-family: var(--font-family);
+  position: relative;
+}
+
+.column p {
+  color: #fff;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 8px;
+  font-size: 13px;
+  text-transform: capitalize;
 }
