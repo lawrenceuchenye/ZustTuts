@@ -1,8 +1,7 @@
 import "./Task.css";
 import { useState } from "react";
 
-const Task = ({ title }) => {
-  const [status, setStatus] = useState("DONE");
+const Task = ({ title, status }) => {
   return (
     <div className={`task ${status}`}>
       <h1>{title}</h1>
