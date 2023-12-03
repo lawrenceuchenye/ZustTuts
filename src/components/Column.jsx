@@ -1,10 +1,12 @@
 import "./Column.css";
 import Task from "./Task";
 import { useStore } from "../store/";
+import { shallow } from "zustand/shallow";
 
 const Column = ({ state }) => {
-  const tasks = useStore((store) =>
-    store.tasks.filter((task) => task.status == state),
+  const tasks = useStore(
+    (store) => store.tasks.filter((task) => task.status == state),
+    shallow,
   );
 
   return (
